@@ -99,7 +99,7 @@ console.log(b.toString(16), b); // b0, 176
 // What's the value of the lower most byte? It's C0, or 192.
 // Again, let's prove that:
 let c = message & 0xFF;
-console.log(c.toString(16), b); // c0, 192
+console.log(c.toString(16), c); // c0, 192
 ```
 
 ### Octal Literal
